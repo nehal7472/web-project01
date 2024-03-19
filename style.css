@@ -170,5 +170,51 @@
   font-size: 0.9em;
   color: #6e6e6e;
 }
-
 /* Card section End  */
+
+/* summary section start  */
+.summary {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 6rem 4rem;
+  margin-bottom: 5rem;
+}
+
+.summary > h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.7em;
+}
+
+.summary_container {
+  display: flex;
+  gap: 10px;
+}
+
+.summary_info > h3 {
+  color: #313131;
+  margin-bottom: 1rem;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.summary_edu_info > h4 {
+  color: #313131;
+  margin-bottom: 0.3rem;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.summary_edu_info > h5 {
+  color: #5e5d5d;
+  margin-bottom: 0.3rem;
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.summary_edu_info > p {
+  font-size: 0.9em;
+  color: #7c7b7b;
+}
+/* summary section End  */
