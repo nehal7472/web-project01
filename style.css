@@ -25,7 +25,9 @@
 
 /* Header start  */
 .header {
-  background: #edffcb;
+  background-image: url("./Image/header_bg.png"), url('./Image/developer.png');
+  background-repeat: no-repeat;
+  background-position: right bottom, left bottom;
   margin-bottom: 5rem;
 }
 /* Nav start  */
@@ -60,9 +62,10 @@
 
 .Header_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
+  padding-left: 8rem;
 }
 
 .header_info {
@@ -89,10 +92,8 @@
   margin-left: 0.3rem;
 }
 
-.header_img > img {
-  width: 350px;
-  height: 350px;
-  border-radius: 50%;
+.header_img {
+  max-width: 30rem;
 }
 /* Header End  */
 
@@ -216,5 +217,10 @@
 .summary_edu_info > p {
   font-size: 0.9em;
   color: #7c7b7b;
+}
+
+hr {
+  max-width: 23rem;
+  margin-left: 2rem;
 }
 /* summary section End  */
